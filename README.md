@@ -1,9 +1,6 @@
 # PEMDASCalculator
 
-A simple calculator with natural language advanced features. 
-
-# Interpreter 
-The interpreter has support for the following:
+A simple calculator with natural language advanced features. The interpreter has support for the following:
 
 # One-parameter
 
