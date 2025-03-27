@@ -4,6 +4,7 @@ import '/flutter_flow/flutter_flow_widgets.dart';
 import '/custom_code/actions/index.dart' as actions;
 import 'package:easy_debounce/easy_debounce.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'calculator_model.dart';
 export 'calculator_model.dart';
@@ -217,6 +218,8 @@ class _CalculatorWidgetState extends State<CalculatorWidget> {
                                   _model.textController?.text =
                                       FFAppState().operations;
                                 });
+                                // Vibrate
+                                HapticFeedback.vibrate();
                               },
                               text: '(',
                               options: FFButtonOptions(
@@ -250,6 +253,8 @@ class _CalculatorWidgetState extends State<CalculatorWidget> {
                                   _model.textController?.text =
                                       FFAppState().operations;
                                 });
+                                // Vibrate
+                                HapticFeedback.vibrate();
                               },
                               text: ')',
                               options: FFButtonOptions(
@@ -283,6 +288,8 @@ class _CalculatorWidgetState extends State<CalculatorWidget> {
                                   _model.textController?.text =
                                       FFAppState().operations;
                                 });
+                                // Vibrate
+                                HapticFeedback.vibrate();
                               },
                               text: '^',
                               options: FFButtonOptions(
@@ -316,6 +323,8 @@ class _CalculatorWidgetState extends State<CalculatorWidget> {
                                   _model.textController?.text =
                                       FFAppState().operations;
                                 });
+                                // Vibrate
+                                HapticFeedback.vibrate();
                               },
                               text: '×',
                               options: FFButtonOptions(
@@ -355,6 +364,8 @@ class _CalculatorWidgetState extends State<CalculatorWidget> {
                                   _model.textController?.text =
                                       FFAppState().operations;
                                 });
+                                // Vibrate
+                                HapticFeedback.vibrate();
                               },
                               text: '7',
                               options: FFButtonOptions(
@@ -388,6 +399,8 @@ class _CalculatorWidgetState extends State<CalculatorWidget> {
                                   _model.textController?.text =
                                       FFAppState().operations;
                                 });
+                                // Vibrate
+                                HapticFeedback.vibrate();
                               },
                               text: '8',
                               options: FFButtonOptions(
@@ -421,6 +434,8 @@ class _CalculatorWidgetState extends State<CalculatorWidget> {
                                   _model.textController?.text =
                                       FFAppState().operations;
                                 });
+                                // Vibrate
+                                HapticFeedback.vibrate();
                               },
                               text: '9',
                               options: FFButtonOptions(
@@ -454,6 +469,8 @@ class _CalculatorWidgetState extends State<CalculatorWidget> {
                                   _model.textController?.text =
                                       FFAppState().operations;
                                 });
+                                // Vibrate
+                                HapticFeedback.vibrate();
                               },
                               text: '/',
                               options: FFButtonOptions(
@@ -493,6 +510,8 @@ class _CalculatorWidgetState extends State<CalculatorWidget> {
                                   _model.textController?.text =
                                       FFAppState().operations;
                                 });
+                                // Vibrate
+                                HapticFeedback.vibrate();
                               },
                               text: '4',
                               options: FFButtonOptions(
@@ -526,6 +545,8 @@ class _CalculatorWidgetState extends State<CalculatorWidget> {
                                   _model.textController?.text =
                                       FFAppState().operations;
                                 });
+                                // Vibrate
+                                HapticFeedback.vibrate();
                               },
                               text: '5',
                               options: FFButtonOptions(
@@ -559,6 +580,8 @@ class _CalculatorWidgetState extends State<CalculatorWidget> {
                                   _model.textController?.text =
                                       FFAppState().operations;
                                 });
+                                // Vibrate
+                                HapticFeedback.vibrate();
                               },
                               text: '6',
                               options: FFButtonOptions(
@@ -592,6 +615,8 @@ class _CalculatorWidgetState extends State<CalculatorWidget> {
                                   _model.textController?.text =
                                       FFAppState().operations;
                                 });
+                                // Vibrate
+                                HapticFeedback.vibrate();
                               },
                               text: '+',
                               options: FFButtonOptions(
@@ -631,6 +656,8 @@ class _CalculatorWidgetState extends State<CalculatorWidget> {
                                   _model.textController?.text =
                                       FFAppState().operations;
                                 });
+                                // Vibrate
+                                HapticFeedback.vibrate();
                               },
                               text: '1',
                               options: FFButtonOptions(
@@ -664,6 +691,8 @@ class _CalculatorWidgetState extends State<CalculatorWidget> {
                                   _model.textController?.text =
                                       FFAppState().operations;
                                 });
+                                // Vibrate
+                                HapticFeedback.vibrate();
                               },
                               text: '2',
                               options: FFButtonOptions(
@@ -697,6 +726,8 @@ class _CalculatorWidgetState extends State<CalculatorWidget> {
                                   _model.textController?.text =
                                       FFAppState().operations;
                                 });
+                                // Vibrate
+                                HapticFeedback.vibrate();
                               },
                               text: '3',
                               options: FFButtonOptions(
@@ -730,6 +761,8 @@ class _CalculatorWidgetState extends State<CalculatorWidget> {
                                   _model.textController?.text =
                                       FFAppState().operations;
                                 });
+                                // Vibrate
+                                HapticFeedback.vibrate();
                               },
                               text: '-',
                               options: FFButtonOptions(
@@ -768,6 +801,8 @@ class _CalculatorWidgetState extends State<CalculatorWidget> {
                                   _model.textController?.text =
                                       FFAppState().operations;
                                 });
+                                // Vibrate
+                                HapticFeedback.vibrate();
                               },
                               text: 'C',
                               options: FFButtonOptions(
@@ -801,6 +836,8 @@ class _CalculatorWidgetState extends State<CalculatorWidget> {
                                   _model.textController?.text =
                                       FFAppState().operations;
                                 });
+                                // Vibrate
+                                HapticFeedback.vibrate();
                               },
                               text: '0',
                               options: FFButtonOptions(
@@ -834,6 +871,8 @@ class _CalculatorWidgetState extends State<CalculatorWidget> {
                                   _model.textController?.text =
                                       FFAppState().operations;
                                 });
+                                // Vibrate
+                                HapticFeedback.vibrate();
                               },
                               text: '.',
                               options: FFButtonOptions(
@@ -871,6 +910,8 @@ class _CalculatorWidgetState extends State<CalculatorWidget> {
                                   _model.textController?.text =
                                       FFAppState().operations;
                                 });
+                                // Vibrate
+                                HapticFeedback.vibrate();
 
                                 safeSetState(() {});
                               },
