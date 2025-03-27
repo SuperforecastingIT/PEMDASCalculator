@@ -5,9 +5,7 @@ A simple calculator with natural language advanced features.
 # Interpreter 
 The interpreter has support for the following:
 
-# Functions 
-
-# One-parameter functions
+# One-parameter
 
 abs     acos    asin    atan    ceil
 cos     cosh    cot     coth    csc
@@ -15,7 +13,7 @@ csch    exp     fact    floor   ln
 log     round   sec     sech    sin
 sinh    sqrt    tan     tanh
 
-# Two-parameter functions
+# Two-parameter 
 
 log     nrt     pow
 
