@@ -31,5 +31,5 @@ Operations
 Custom Pub Dependencies:
 https://pub.dev/packages/function_tree
 
-<img src="https://github.com/user-attachments/assets/a52ba2ba-ce16-4d85-9a18-b78fea946e90" width="75%" height="75%"> <img src="https://github.com/user-attachments/assets/4c5d6c57-16af-4b81-96e1-550abb6237ef" width="75%" height="75%">
+<table> <tr> <td><img src="https://github.com/user-attachments/assets/a52ba2ba-ce16-4d85-9a18-b78fea946e90" width="75%" height="75%"></td> <td><img src="https://github.com/user-attachments/assets/4c5d6c57-16af-4b81-96e1-550abb6237ef" width="75%" height="75%"></td> </tr> </table>
 
