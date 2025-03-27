@@ -11,7 +11,7 @@ class CalculatorModel extends FlutterFlowModel<CalculatorWidget> {
   String? Function(BuildContext, String?)? textControllerValidator;
   // Stores action output result for [Custom Action - evaluateExpression] action in TextField widget.
   double? actionResultCopy;
-  // Stores action output result for [Custom Action - evaluateExpression] action in Button widget.
+  // Stores action output result for [Custom Action - evaluateExpression] action in ButtonEqual widget.
   double? actionResult;
 
   @override
