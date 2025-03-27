@@ -26,7 +26,7 @@ log10e  sqrt1_2 sqrt2
 
 Operations 
 
-+  -  *  /  ()  ^
+#+  -  *  /  ()  ^
       
 Custom Pub Dependencies:
 https://pub.dev/packages/function_tree
