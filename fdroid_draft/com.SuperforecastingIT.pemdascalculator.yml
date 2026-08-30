@@ -1,0 +1,43 @@
+Categories:
+  - Science & Education
+  - System
+
+License: MPL-2.0
+
+AuthorName: ITJosue
+SourceCode: https://github.com/ITJosue/PEMDASCalculator
+IssueTracker: https://github.com/ITJosue/PEMDASCalculator/issues
+
+AutoName: PEMDAS Calculator
+Description: |
+  A simple calculator with natural language advanced features.
+  Supports standard arithmetic operations with proper PEMDAS order of
+  operations, one-parameter and two-parameter mathematical functions,
+  and built-in constants.
+
+RepoType: git
+Repo: https://github.com/ITJosue/PEMDASCalculator.git
+
+Builds:
+  - versionName: '1.0.0'
+    versionCode: 1
+    commit: v1.0.0
+    subdir: android/app
+    output: build/app/outputs/flutter-apk/app-release.apk
+    srclibs:
+      - flutter@stable
+    rm:
+      - ios
+      - web
+      - windows
+      - linux
+      - macos
+    build:
+      - $$flutter$$/bin/flutter config --no-analytics
+      - $$flutter$$/bin/flutter pub get
+      - $$flutter$$/bin/flutter build apk --release
+
+AutoUpdateMode: Version
+UpdateCheckMode: Tags
+CurrentVersion: '1.0.0'
+CurrentVersionCode: 1

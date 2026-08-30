@@ -1,0 +1,12 @@
+PEMDAS Calculator is a simple calculator with natural language advanced features.
+
+It supports standard arithmetic operations (+, -, *, /, ^) with proper PEMDAS order of operations and parentheses grouping.
+
+One-parameter functions:
+abs, acos, asin, atan, ceil, cos, cosh, cot, coth, csc, csch, exp, fact, floor, ln, log, round, sec, sech, sin, sinh, sqrt, tan, tanh
+
+Two-parameter functions:
+log, nrt, pow
+
+Built-in constants:
+e, pi, ln2, ln10, log2e, log10e, sqrt1_2, sqrt2
